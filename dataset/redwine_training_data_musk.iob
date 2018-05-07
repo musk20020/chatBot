@@ -1,0 +1,285 @@
+BOS 有 建议 的 红酒 吗 EOS	O O O O B-酒种类 O 找酒
+BOS 能 推荐 个 红酒 吗 ？ EOS	O O O O B-酒种类 O O 找酒
+BOS 有 啥 好喝 的 葡萄酒 EOS	O O O O O B-酒种类 找酒
+BOS 有 什么 推荐 EOS	O O O O 找酒
+BOS 有 什么 建议 的 酒 EOS	O O O O O O 找酒
+BOS 推荐 我 喝 什么 酒 EOS	O O O O O O 找酒
+BOS 找 白酒 EOS	O O B-酒种类 找酒
+BOS 红酒 EOS	O B-酒种类 找酒
+BOS 建议 我 喝 什么 酒 EOS	O O O O O O 找酒
+BOS 推荐 一瓶 好喝 的 酒吧 EOS	O O O O O O 找酒
+BOS 求 推荐 EOS	O O O 找酒
+BOS 啥 红酒 特 好 EOS	O O B-酒种类 O O 找酒
+BOS 有 什么 好喝 的 酒 EOS	O O O O O O 找酒
+BOS 有 啥 好喝 的 酒 EOS	O O O O O O 找酒
+BOS 有 啥 好喝 EOS	O O O O 找酒
+BOS 要 喝 什么 才 好 EOS	O O O O O O 找酒
+BOS 我 不 知道 要 喝 什么 EOS	O O O O O O O 找酒
+BOS 能 喝 什么 呢 EOS	O O O O O 找酒
+BOS 我要 找 特好 的 酒 EOS	O O O O O O 找酒
+BOS 我 想 找 好喝 的 酒 EOS	O O O O O O O 找酒
+BOS 啥 好喝 ， 给 个 建议 吧 EOS	O O O O O O O O 找酒
+BOS 你 推 哪瓶 白酒 EOS	O O O O B-酒种类 找酒
+BOS 给 我 推荐 好喝 的 酒 EOS	O O O O O O O 找酒
+BOS 波尔多 放 哪里 EOS	O B-产区 O O 找酒
+BOS 我 的 波尔多 在 哪里 EOS	O O O B-产区 O O 找酒
+BOS 哪 一瓶 波尔多 好 EOS	O O O B-产区 O 找酒
+BOS 波尔多 EOS	O B-产区 找酒
+BOS 想 找 波尔多 EOS	O O O B-产区 找酒
+BOS 特 好喝 的 波尔多 EOS	O O O O B-产区 找酒
+BOS 请 建议 一瓶 波尔多 EOS	O O O O B-产区 找酒
+BOS 义大利 有 什么 好喝 的 EOS	O B-国家 O O O O 找酒
+BOS 想来 瓶 波尔多 EOS	O O O B-产区 找酒
+BOS 有 波尔多 吗 EOS	O O B-产区 O 找酒
+BOS 来自 波尔多 EOS	O O B-产区 找酒
+BOS 有没有 波尔多 EOS	O O B-产区 找酒
+BOS 找 波尔多 EOS	O O B-产区 找酒
+BOS 推荐 一瓶 好喝 的 波尔多 EOS	O O O O O B-产区 找酒
+BOS 请 帮 我 找 波尔多 EOS	O O O O O B-产区 找酒
+BOS 请 帮 我 找 波尔多 红酒 EOS	O O O O O B-产区 B-酒种类 找酒
+BOS 波尔多 有 什么 红酒 EOS	O B-产区 O O B-酒种类 找酒
+BOS 波尔多 的 红酒 在 哪里 EOS	O B-产区 O B-酒种类 O O 找酒
+BOS 推荐 一瓶 好喝 的 波尔多 白酒 EOS	O O O O O B-产区 B-酒种类 找酒
+BOS 求 波尔多 酒 EOS	O O B-产区 O 找酒
+BOS 求 一瓶 波尔多 白酒 EOS	O O O B-产区 B-酒种类 找酒
+BOS 建议 波尔多 白酒 EOS	O O B-产区 B-酒种类 找酒
+BOS 建议 一瓶 波尔多 白酒 EOS	O O O B-产区 B-酒种类 找酒
+BOS 找 波尔多 酒 EOS	O O B-产区 O 找酒
+BOS 找 波尔多 白酒 EOS	O O B-产区 B-酒种类 找酒
+BOS 有 啥 波尔多 酒 EOS	O O O B-产区 O 找酒
+BOS 有 啥 来自 波尔多 的 酒 EOS	O O O O B-产区 O O 找酒
+BOS 有 啥 波尔多 白酒 EOS	O O O B-产区 B-酒种类 找酒
+BOS 有 啥 来自 波尔多 的 白酒 EOS	O O O O B-产区 O B-酒种类 找酒
+BOS 求义 大义 的 酒 EOS	O O O O O 找酒
+BOS 找 波尔多 葡萄酒 EOS	O O B-产区 B-酒种类 找酒
+BOS 有没有 波尔多 的 酒 EOS	O O B-产区 O O 找酒
+BOS 有没有 波尔多 的 酒 EOS	O O B-产区 O O 找酒
+BOS 有没有 波尔多 的 白酒 EOS	O O B-产区 O B-酒种类 找酒
+BOS 想来 瓶 波尔多 白酒 EOS	O O O B-产区 B-酒种类 找酒
+BOS 来自 波尔多 的 酒 EOS	O O B-产区 O O 找酒
+BOS 波尔多 酿 的 酒 EOS	O B-产区 O O O 找酒
+BOS 波尔多 酿 的 白酒 EOS	O B-产区 O O B-酒种类 找酒
+BOS 特 好喝 的 波尔多 白酒 EOS	O O O O B-产区 B-酒种类 找酒
+BOS 想 找 波尔多 的 酒 EOS	O O O B-产区 O O 找酒
+BOS 想 找 波尔多 白酒 EOS	O O O B-产区 B-酒种类 找酒
+BOS 波尔多 有 什么 好喝 的 白酒 EOS	O B-产区 O O O O B-酒种类 找酒
+BOS 波尔多 2013 EOS	O B-产区 B-年份 找酒
+BOS 2013 波尔多 EOS	O B-年份 B-产区 找酒
+BOS 2013 产 的 波尔多 EOS	O B-年份 O O B-产区 找酒
+BOS 2013年 产 的 波尔多 EOS	O B-年份 O O B-产区 找酒
+BOS 13年 的 波尔多 EOS	O B-年份 O B-产区 找酒
+BOS 找 2013 波尔多 EOS	O O B-年份 B-产区 找酒
+BOS 找 13年 波尔多 EOS	O O B-年份 B-产区 找酒
+BOS 找 找 2013 波尔多 EOS	O O O B-年份 B-产区 找酒
+BOS 我 想 找 2013年 产 的 波尔多 EOS	O O O O B-年份 O O B-产区 找酒
+BOS 帮 我 找 2013年 产 的 波尔多 EOS	O O O O B-年份 O O B-产区 找酒
+BOS 2013年 的 波尔多 在 哪里 EOS	O B-年份 O B-产区 O O 找酒
+BOS 有 2013年 的 波尔多 吗 EOS	O O B-年份 O B-产区 O 找酒
+BOS 有没有 2013年 的 波尔多 EOS	O O B-年份 O B-产区 找酒
+BOS 有没有 波尔多 2013年 EOS	O O B-产区 B-年份 找酒
+BOS 2013年 出产 的 波尔多 酒 EOS	O B-年份 O O B-产区 O 找酒
+BOS 2013年 出产 的 波尔多 白酒 EOS	O B-年份 O O B-产区 B-酒种类 找酒
+BOS 知道 13年 的 波尔多 在 哪里 吗 EOS	O O B-年份 O B-产区 O O O 找酒
+BOS 2013年 有 什么 好喝 的 酒 EOS	O B-年份 O O O O O 找酒
+BOS 13年 有 什么 好喝 的 EOS	O B-年份 O O O O 找酒
+BOS 13年 EOS	O B-年份 找酒
+BOS 2013 EOS	O B-年份 找酒
+BOS 2013年 EOS	O B-年份 找酒
+BOS 求 2013年 的 酒 EOS	O O B-年份 O O 找酒
+BOS 找 2013 EOS	O O B-年份 找酒
+BOS 找 2013年 EOS	O O B-年份 找酒
+BOS 找 13年 EOS	O O B-年份 找酒
+BOS 吃海鲜 要 喝 什么 呢 EOS	O O O O O O 找酒
+BOS 吃海鲜 要配 什么 呢 EOS	O O O O O 找酒
+BOS 适合 海鲜 的 有 哪些 EOS	O O B-食物 O O O 找酒
+BOS 有没有 能 搭 海鲜 的 酒 EOS	O O O O B-食物 O O 找酒
+BOS 哪些 能 搭配 海鲜 EOS	O O O O B-食物 找酒
+BOS 海鲜 搭配 的 酒 EOS	O B-食物 O O O 找酒
+BOS 有 哪些 适合 海鲜 喝 的 酒 EOS	O O O O B-食物 O O O 找酒
+BOS 吃海鲜 喝 什么样 的 酒 好 EOS	O O O O O O O 找酒
+BOS 海鲜 EOS	O B-食物 找酒
+BOS 吃海鲜 喝酒 EOS	O O O 找酒
+BOS 吃海鲜 要配 什么 EOS	O O O O 找酒
+BOS 适合 海鲜 的 酒 EOS	O O B-食物 O O 找酒
+BOS 适合 海鲜 EOS	O O B-食物 找酒
+BOS 适合 搭配 海鲜 EOS	O O O B-食物 找酒
+BOS 用来 配 海鲜 的 酒 EOS	O O O B-食物 O O 找酒
+BOS 吃海鲜 喝 什么 好 呢 EOS	O O O O O O 找酒
+BOS 海鲜 配 什么 好 呢 EOS	O B-食物 O O O O 找酒
+BOS 哪瓶 酒能 搭配 海鲜 EOS	O O O O B-食物 找酒
+BOS 哪瓶 酒 和 海鲜 很 搭 EOS	O O O O B-食物 O O 找酒
+BOS 找配 海鲜 的 餐酒 EOS	O O B-食物 O B-食物 找酒
+BOS 帮 我 找 找配 海鲜 的 酒 EOS	O O O O O B-食物 O O 找酒
+BOS 能配 海鲜 的 EOS	O O B-食物 O 找酒
+BOS 找配 海鲜 的 EOS	O O B-食物 O 找酒
+BOS 我 想 吃海鲜 的 时候 喝酒 EOS	O O O O O O O 找酒
+BOS 推荐 能配 海鲜 的 酒吧 EOS	O O O B-食物 O O 找酒
+BOS 给 我 推荐 能配 海鲜 的 酒吧 EOS	O O O O O B-食物 O O 找酒
+BOS 告诉 我 哪瓶 酒 最好 EOS	O O O O O O 找酒
+BOS 找 最好的 酒 EOS	O O B-酒属性 O 找酒
+BOS 帮 我 找 最贵的 酒 EOS	O O O O B-酒属性 O 找酒
+BOS 最近买的 酒 在 哪里 EOS	O B-酒属性 O O O 找酒
+BOS 找 找 最好的 EOS	O O O B-酒属性 找酒
+BOS 最好的 EOS	O B-酒属性 找酒
+BOS 哪 一瓶 是 最贵的 酒 EOS	O O O O B-酒属性 O 找酒
+BOS 梅洛 EOS	O B-葡萄品种 找酒
+BOS 找 梅洛 品种 的 酒 EOS	O O B-葡萄品种 O O O 找酒
+BOS 想要 找 波尔多 的 梅洛 酒 EOS	O O O B-产区 O B-葡萄品种 O 找酒
+BOS 请 协助 我 找 波尔多 梅洛 品种 的 酒 EOS	O O O O O B-产区 B-葡萄品种 O O O 找酒
+BOS 想 搜寻 波尔多 梅洛 葡萄 酿 的 酒 EOS	O O O B-产区 B-葡萄品种 B-食物 O O O 找酒
+BOS 请 挑出 波尔多 梅洛 酒 EOS	O O O B-产区 B-葡萄品种 O 找酒
+BOS 求 波尔多 梅洛 品种 的 酒 EOS	O O B-产区 B-葡萄品种 O O O 找酒
+BOS 波尔多 梅洛 酒有 啥 EOS	O B-产区 B-葡萄品种 O O 找酒
+BOS 波尔多 梅洛 葡萄 品种 的 酒 EOS	O B-产区 B-葡萄品种 B-食物 O O O 找酒
+BOS 波尔多 梅洛 EOS	O B-产区 B-葡萄品种 找酒
+BOS 种植 于 波尔多 的 梅洛 EOS	O O O B-产区 O B-葡萄品种 找酒
+BOS 波尔多 酿造 的 梅洛 酒 EOS	O B-产区 O O B-葡萄品种 O 找酒
+BOS 有 哪些 波尔多 的 梅洛 酒 EOS	O O O B-产区 O B-葡萄品种 O 找酒
+BOS 列出 梅洛 在 波尔多 酿 的 EOS	O O B-葡萄品种 O B-产区 O O 找酒
+BOS 请 给 我 波尔多 的 梅洛 EOS	O O O O B-产区 O B-葡萄品种 找酒
+BOS 梅洛 红酒 EOS	O B-葡萄品种 B-酒种类 找酒
+BOS 找 梅洛 品种 的 红酒 EOS	O O B-葡萄品种 O O B-酒种类 找酒
+BOS 想要 找 梅洛 的 红酒 EOS	O O O B-葡萄品种 O B-酒种类 找酒
+BOS 请 协助 我 找 梅洛 的 红酒 EOS	O O O O O B-葡萄品种 O B-酒种类 找酒
+BOS 想 搜寻 梅洛 红酒 EOS	O O O B-葡萄品种 B-酒种类 找酒
+BOS 请 挑出 梅洛 红酒 EOS	O O O B-葡萄品种 B-酒种类 找酒
+BOS 求 梅洛 红酒 EOS	O O B-葡萄品种 B-酒种类 找酒
+BOS 梅洛 酒有 啥 EOS	O B-葡萄品种 O O 找酒
+BOS 梅洛 葡萄 品种 的 红酒 EOS	O B-葡萄品种 B-食物 O O B-酒种类 找酒
+BOS 有 哪些 梅洛 红酒 EOS	O O O B-葡萄品种 B-酒种类 找酒
+BOS 哪些 红酒 是 梅洛 的 EOS	O O B-酒种类 O B-葡萄品种 O 找酒
+BOS 列出 梅洛 的 红酒 EOS	O O B-葡萄品种 O B-酒种类 找酒
+BOS 请 给 我 梅洛 的 红酒 EOS	O O O O B-葡萄品种 O B-酒种类 找酒
+BOS 波尔多 梅洛 红酒 EOS	O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 找 波尔多 梅洛 品种 的 红酒 EOS	O O B-产区 B-葡萄品种 O O B-酒种类 找酒
+BOS 想要 找 波尔多 梅洛 的 红酒 EOS	O O O B-产区 B-葡萄品种 O B-酒种类 找酒
+BOS 请 协助 我 找 波尔多 的 梅洛 红酒 EOS	O O O O O B-产区 O B-葡萄品种 B-酒种类 找酒
+BOS 想 搜寻 波尔多 梅洛 红酒 EOS	O O O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 请 挑出 波尔多 梅洛 红酒 EOS	O O O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 求 波尔多 梅洛 红酒 EOS	O O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 波尔多 梅洛 酒有 啥 EOS	O B-产区 B-葡萄品种 O O 找酒
+BOS 梅洛 葡萄 品种 的 红酒 EOS	O B-葡萄品种 B-食物 O O B-酒种类 找酒
+BOS 有 哪些 波尔多 梅洛 红酒 EOS	O O O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 哪些 红酒 是 波尔多 梅洛 的 EOS	O O B-酒种类 O B-产区 B-葡萄品种 O 找酒
+BOS 列出 波尔多 梅洛 的 红酒 EOS	O O B-产区 B-葡萄品种 O B-酒种类 找酒
+BOS 请 给 我 波尔多 梅洛 的 红酒 EOS	O O O O B-产区 B-葡萄品种 O B-酒种类 找酒
+BOS 16年 的 梅洛 EOS	O B-年份 O B-葡萄品种 找酒
+BOS 2016年 的 梅洛 EOS	O B-年份 O B-葡萄品种 找酒
+BOS 2016年 的 梅洛 EOS	O B-年份 O B-葡萄品种 找酒
+BOS 想要 找 2016年 的 梅洛 EOS	O O O B-年份 O B-葡萄品种 找酒
+BOS 请 协助 我 找 2016年 的 梅洛 EOS	O O O O O B-年份 O B-葡萄品种 找酒
+BOS 想 搜寻 2016年 的 梅洛 EOS	O O O B-年份 O B-葡萄品种 找酒
+BOS 请 挑出 2016年 的 梅洛 EOS	O O O B-年份 O B-葡萄品种 找酒
+BOS 求 2016年 的 梅洛 EOS	O O B-年份 O B-葡萄品种 找酒
+BOS 2016年 的 梅洛 有 啥 EOS	O B-年份 O B-葡萄品种 O O 找酒
+BOS 有 哪些 2016年 的 梅洛 EOS	O O O B-年份 O B-葡萄品种 找酒
+BOS 列出 2016年 的 梅洛 EOS	O O B-年份 O B-葡萄品种 找酒
+BOS 请 给 我 2016 的 梅洛 EOS	O O O O B-年份 O B-葡萄品种 找酒
+BOS 16年 的 梅洛 酒 EOS	O B-年份 O B-葡萄品种 O 找酒
+BOS 2016年 的 梅洛 红酒 EOS	O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 2016年 的 梅洛 红酒 EOS	O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 想要 找 2016年 的 梅洛 红酒 EOS	O O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 请 协助 我 找 2016年 的 梅洛 红酒 EOS	O O O O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 想 搜寻 2016年 的 梅洛 红酒 EOS	O O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 请 挑出 2016年 的 梅洛 红酒 EOS	O O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 求 2016年 的 梅洛 红酒 EOS	O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 2016年 的 梅洛 红酒 有 啥 EOS	O B-年份 O B-葡萄品种 B-酒种类 O O 找酒
+BOS 有 哪些 2016年 的 梅洛 红酒 EOS	O O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 列出 2016年 的 梅洛 红酒 EOS	O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 请 给 我 2016 的 梅洛 红酒 EOS	O O O O B-年份 O B-葡萄品种 B-酒种类 找酒
+BOS 16年 的 波尔多 梅洛 EOS	O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 2016 的 波尔多 梅洛 EOS	O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 2016年 的 波尔多 梅洛 EOS	O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 想要 找 2016年 的 波尔多 梅洛 EOS	O O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 请 协助 我 找 2016年 的 波尔多 梅洛 EOS	O O O O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 想 搜寻 2016年 的 波尔多 梅洛 EOS	O O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 请 挑出 2016年 的 波尔多 梅洛 EOS	O O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 求 2016年 的 波尔多 梅洛 EOS	O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 2016年 的 波尔多 梅洛 有 啥 EOS	O B-年份 O B-产区 B-葡萄品种 O O 找酒
+BOS 有 哪些 2016年 的 波尔多 梅洛 EOS	O O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 列出 2016年 的 波尔多 梅洛 EOS	O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 请 给 我 2016 的 波尔多 梅洛 EOS	O O O O B-年份 O B-产区 B-葡萄品种 找酒
+BOS 16年 的 波尔多 梅洛 酒 EOS	O B-年份 O B-产区 B-葡萄品种 O 找酒
+BOS 2016 的 波尔多 梅洛 红酒 EOS	O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 2016年 的 波尔多 梅洛 红酒 EOS	O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 想要 找 2016年 的 波尔多 梅洛 红酒 EOS	O O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 请 协助 我 找 2016年 的 波尔多 梅洛 红酒 EOS	O O O O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 想 搜寻 2016年 的 波尔多 梅洛 红酒 EOS	O O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 请 挑出 2016年 的 波尔多 梅洛 红酒 EOS	O O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 求 2016年 的 波尔多 梅洛 红酒 EOS	O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 2016年 的 波尔多 梅洛 红酒 有 啥 EOS	O B-年份 O B-产区 B-葡萄品种 B-酒种类 O O 找酒
+BOS 有 哪些 2016年 的 波尔多 梅洛 红酒 EOS	O O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 列出 2016年 的 波尔多 梅洛 红酒 EOS	O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 请 给 我 2016 的 波尔多 梅洛 红酒 EOS	O O O O B-年份 O B-产区 B-葡萄品种 B-酒种类 找酒
+BOS 我要 买 酒 EOS	O O O O 页面引导
+BOS 我 想 买 酒 EOS	O O O O O 页面引导
+BOS 我 想要 去 买 酒 EOS	O O O O O O 页面引导
+BOS 买酒 EOS	O O 页面引导
+BOS 要 补货 了 EOS	O O O O 页面引导
+BOS 想 补货 EOS	O O O 页面引导
+BOS 我 想要 去 看 最新消息 EOS	O O O O O O 页面引导
+BOS 去 活动 EOS	O O B-页面 页面引导
+BOS 我 想要 去 看 活动 EOS	O O O O O B-页面 页面引导
+BOS 我要 看 酒柜 里 的 样子 EOS	O O O O O O O 页面引导
+BOS 看 酒柜 里 EOS	O O O O 页面引导
+BOS 酒柜 里 的 状态 EOS	O O O O O 页面引导
+BOS 声音 太 大声 了 EOS	O O O O O 页面引导
+BOS 锁频 时间 设定 EOS	O O O O 页面引导
+BOS 帮 我 设定 EOS	O O O O 页面引导
+BOS 想 调整 设定 EOS	O O O O 页面引导
+BOS 帮 我 调整 设定 好 吗 EOS	O O O O O O O 页面引导
+BOS 变更 设定 EOS	O O O 页面引导
+BOS 设定 页 EOS	O O O 页面引导
+BOS 想调 亮度 EOS	O O O 页面引导
+BOS 频幕 太亮 了 EOS	O O O O 页面引导
+BOS 频幕 太暗 了 EOS	O O O O 页面引导
+BOS 频幕 看不清楚 EOS	O O O 页面引导
+BOS 太暗 了 看不到 EOS	O O O O 页面引导
+BOS 我 看不清楚 萤幕 EOS	O O O O 页面引导
+BOS 开 控制 页 EOS	O O O O 页面引导
+BOS 念出酒名 EOS	O B-功能 语音辅助
+BOS 把酒 名念 出来 EOS	O O O O 语音辅助
+BOS 这个 酒名 怎么 念 EOS	O O O O O 语音辅助
+BOS 怎么 发音 EOS	O O O 语音辅助
+BOS 如何 发音 EOS	O O O 语音辅助
+BOS 酒名 原文 怎么 念 EOS	O O O O O 语音辅助
+BOS 教 我念 EOS	O O O 语音辅助
+BOS 教 我念 酒名 EOS	O O O O 语音辅助
+BOS 教 我念酒 的 名字 EOS	O O O O O 语音辅助
+BOS 说 说 酒名 EOS	O O O O 语音辅助
+BOS 念酒名 EOS	O O 语音辅助
+BOS 这酒 名叫 啥 EOS	O O O O 语音辅助
+BOS 念念 看 EOS	O O O 语音辅助
+BOS 念 出来 EOS	O O O 语音辅助
+BOS 请 发音 EOS	O O O 语音辅助
+BOS 原文 怎么 念 EOS	O O O O 语音辅助
+BOS 告诉 我 怎么 念 EOS	O O O O O 语音辅助
+BOS 念个 酒名 来 听听 EOS	O O O O O 语音辅助
+BOS 这 名字 咋念 啊 EOS	O O O O O 语音辅助
+BOS 咋念 啊 EOS	O O O 语音辅助
+BOS 念来 听听 呗 EOS	O O O O 语音辅助
+BOS 念念 看 呗 EOS	O O O O 语音辅助
+BOS 酒柜 有 多少 酒 EOS	O O O O O 库存
+BOS 我 有 几瓶 酒 EOS	O O O O O 库存
+BOS 请问 有 多少 酒 EOS	O O O O O 库存
+BOS 有 几瓶 酒 呢 EOS	O O O O O 库存
+BOS 还 剩 多少 空间 EOS	O O O O O 库存
+BOS 可用 空间 还有 多少 EOS	O O O O O 库存
+BOS 还有 多少 空间 EOS	O O O O 库存
+BOS 还 可以 放 多少 酒 EOS	O O O O O O 库存
+BOS 酒柜 有 多少 红酒 EOS	O O O O B-酒种类 库存
+BOS 我 有 几瓶 红酒 EOS	O O O O B-酒种类 库存
+BOS 请问 有 多少 红酒 EOS	O O O O B-酒种类 库存
+BOS 有 几瓶 红酒 呢 EOS	O O O B-酒种类 O 库存
+BOS 还 剩 多少 红酒 空间 EOS	O O O O B-酒种类 O 库存
+BOS 红酒 可用 空间 还有 多少 EOS	O B-酒种类 O O O O 库存
+BOS 还有 多少 红酒 空间 EOS	O O O B-酒种类 O 库存
+BOS 还 可以 放 多少 红酒 EOS	O O O O O B-酒种类 库存
+BOS 酒柜 有 多少 白酒 EOS	O O O O B-酒种类 库存
+BOS 我 有 几瓶 白酒 EOS	O O O O B-酒种类 库存
+BOS 请问 有 多少 白酒 EOS	O O O O B-酒种类 库存
+BOS 有 几瓶 白酒 呢 EOS	O O O B-酒种类 O 库存
+BOS 还 剩 多少 白酒 空间 EOS	O O O O B-酒种类 O 库存
+BOS 白酒 可用 空间 还有 多少 EOS	O B-酒种类 O O O O 库存
+BOS 还有 多少 白酒 空间 EOS	O O O B-酒种类 O 库存
+BOS 还 可以 放 多少 白酒 EOS	O O O O O B-酒种类 库存

@@ -1,0 +1,44 @@
+BOS 我 想要 搭配 义大利面 的 红酒 EOS	O O O O B-食物 O B-酒种类 找酒
+BOS 我要 买 酒 EOS	O O O O 页面引导
+BOS 最夯 的 气泡酒 EOS	O B-酒属性 O B-食物 找酒
+BOS 派对 要 的 甜酒 EOS	O O O O B-酒种类 找酒
+BOS 我 喜欢 雷司令 的 EOS	O O O B-葡萄品种 O 找酒
+BOS 开胃菜 要配 什么 酒好 EOS	O B-食物 O O O 找酒
+BOS 法国 有 哪些 酒 EOS	O B-国家 O O O 找酒
+BOS 13年 EOS	O B-年份 找酒
+BOS 1982年 的 地中海产区 EOS	O B-年份 O B-产区 找酒
+BOS 勃艮第 EOS	O B-产区 找酒
+BOS 红酒 配 沙拉 适合 吗 EOS	O B-酒种类 O B-食物 O O 找酒
+BOS 声音 太大 了 EOS	O O O O 页面引导
+BOS 你 太 吵 了 吧 EOS	O O O O O O 页面引导
+BOS 有 什么 有趣 的 活动 吗 EOS	O O O O O B-页面 O 页面引导
+BOS 优惠活动 EOS	O O 页面引导
+BOS 我 还有 什么 库存 EOS	O O O O O 库存
+BOS 还有 多少 酒 EOS	O O O O 库存
+BOS 这酒 怎么 念 啊 EOS	O O O O O 语音辅助
+BOS 想 找 黑皮诺 EOS	O O O B-葡萄品种 找酒
+BOS 2018年 最夯 款 气泡酒 EOS	O B-年份 B-酒属性 O B-食物 找酒
+BOS 大家 最爱 的 威士忌 EOS	O O O O O 找酒
+BOS 2000年 的 美国 麝香 葡萄 好喝 吗 EOS	O B-年份 O B-国家 B-葡萄品种 B-食物 O O 找酒
+BOS 经典 款 的 波尔多 EOS	O O O O B-产区 找酒
+BOS 我 还有 多少 空间 放酒 EOS	O O O O O O 库存
+BOS 还有 几瓶 酒 的 空间 EOS	O O O O O O 库存
+BOS 还 剩下 多少 葡萄酒 EOS	O O O O B-酒种类 库存
+BOS 推荐 一瓶 搭配 海鲜 的 酒吧 EOS	O O O O B-食物 O O 找酒
+BOS 面包 配 红葡萄酒 EOS	O B-食物 O B-酒种类 找酒
+BOS 找 看看 最贵的 雪莉酒 EOS	O O O B-酒属性 B-酒种类 找酒
+BOS 法国 红酒 有 哪些 著名 的 品牌 ？ EOS	O B-国家 B-酒种类 O O O O O O 找酒
+BOS 南非 著名 的 葡萄酒 品牌 有 哪些 ？ EOS	O B-国家 O O B-酒种类 O O O O 找酒
+BOS 梅洛 ， 西拉 和 赤霞珠 ， 哪 一款 更加 适合 女生 饮用 ？ EOS	O B-葡萄品种 O B-葡萄品种 O B-葡萄品种 O O O O O O O O 找酒
+BOS 在 哪里 可以 买 到 1982年 的 拉菲 EOS	O O O O O O B-年份 O O 找酒
+BOS 雷司令 、 霞多丽 、 赤霞珠 三种 葡萄酒 有 什么 不同 ？ EOS	O B-葡萄品种 O B-葡萄品种 O B-葡萄品种 O B-酒种类 O O O O 找酒
+BOS 葡萄酒 和 干 红葡萄酒 之间 有 什么 区别 ？ EOS	O B-酒种类 O O B-酒种类 O O O O O 找酒
+BOS 西班牙 十大 葡萄酒 有 哪些 EOS	O B-国家 O B-酒种类 O O 找酒
+BOS 美国 加州 有 哪些 比较 好 的 葡萄酒 ？ EOS	O B-国家 O O O O O O B-酒种类 O 找酒
+BOS 赤霞珠 、 萨 瑞斯 、 梅洛 红酒 EOS	O B-葡萄品种 O O O O B-葡萄品种 B-酒种类 找酒
+BOS 世界 上 最贵的 葡萄酒 ？ EOS	O O O B-酒属性 B-酒种类 O 页面引导
+BOS 吃 虾 的 时候 可以 搭配 红葡萄酒 吗 ？ EOS	O O O O O O O B-酒种类 O O 找酒
+BOS 路易 拉图 的 白葡萄酒 EOS	O O O O B-酒种类 找酒
+BOS 波尔多 EOS	O B-产区 找酒
+BOS 念 名字 给 我 听 EOS	O O O O O O 语音辅助
+BOS 回 首页 EOS	O O B-页面 页面引导
